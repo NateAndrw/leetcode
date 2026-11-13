@@ -1,0 +1,14 @@
+# Ignore binaries with no extension (compiled C++ output on Linux/macOS).
+# Directories and anything containing a dot (.cpp, .md, .gitkeep, ...) stay tracked.
+*
+!*/
+!*.*
+
+# Compiled C++ output (these come last so they override the rule above)
+a.out
+*.exe
+*.o
+*.obj
+*.out
+*.pdb
+*.ilk
